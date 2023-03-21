@@ -1,13 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
-pip install requests bs4
-
-
-# In[39]:
 
 
 import requests
@@ -32,16 +22,3 @@ n=len(stockinfo)
 for i in range(n):
     print(item,'=',stockinfo[i])
 print('Success')
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
